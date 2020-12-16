@@ -1,0 +1,17 @@
+{
+  "name": "Hide muted whatsapp conversations",
+  "description": "Adds a button to the browser to hide muted whatsapp conversations.",
+  "version": "0.2",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Hide/Unhide muted conversations",
+      "default_icon": "silent_small.png"
+  },
+  "manifest_version": 2
+}
